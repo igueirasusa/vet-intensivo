@@ -1,0 +1,14 @@
+@import url(variaveis.css);
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--preto);
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}

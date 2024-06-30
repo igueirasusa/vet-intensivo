@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 0;
+  background-color: var(--branco);
+  position: sticky;
+  top: 0;
+
+  .header__logo {
+    max-width: 200px;
+  }
+
+  .header__nav-bar {
+    display: flex;
+    gap: 20px;
+
+    .header__nav-bar__link {
+      color: var(--vermelho);
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+      padding: 8px 16px;
+      border-radius: 4px;
+      box-shadow: 0 0 4px#101010;
+
+      &:first-child {
+        background-color: var(--vermelho);
+        color: var(--branco);
+      }
+
+      &:hover {
+        box-shadow: 0px 2px 4px var(--preto);
+
+        transform: scale(1.025);
+        transition-duration: 0.25s;
+        transition-timing-function: cubic-bezier(0.5, 0.82, 0.165, 0.8);
+      }
+    }
+  }
+}
