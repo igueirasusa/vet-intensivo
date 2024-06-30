@@ -4,8 +4,6 @@
   justify-content: space-around;
   background-color: var(--vermelho);
   padding: 40px 0;
-  position: sticky;
-  top: 0;
 
   .header__logotipo {
     max-width: 200px;
@@ -15,13 +13,8 @@
     display: flex;
     gap: 20px;
 
-    .header__menu__link {
-      text-transform: uppercase;
-      font-weight: bold;
-      text-align: center;
-      border-radius: 4px;
+    .header__menu__link--branco {
       color: var(--branco);
-      border: solid var(--branco) 0.5px;
     }
   }
 }

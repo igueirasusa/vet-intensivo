@@ -1,6 +1,12 @@
+/*Button Small*/
+
 .button-small {
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-weight: bold;
   padding: 8px 16px;
   font-size: 14px;
+  border: solid var(--branco) 2px;
 
   &:hover {
     transform: scale(1.025);
