@@ -1,14 +1,17 @@
-@import url(variaveis.css);
+@import url(_root.css);
+@import url(_componentes.css);
+@import url(_header.css);
 
 /* Reset */
 * {
   margin: 0;
   padding: 0;
-  color: var(--preto);
+  text-decoration: none;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
-a {
-  text-decoration: none;
+body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
 }
